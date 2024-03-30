@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction History</title>
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pok%C3%A9_Ball_icon.svg/770px-Pok%C3%A9_Ball_icon.svg.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <a href="index.html"><img width="64" height="48" src="img/logo.png" class="logo" alt=""></a>
+
+        <div class="burger-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a class="active" href="purchased.html">Transaction History</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="cart.html"><img width="24" height="24" src="https://img.icons8.com/material-outlined/24/shopping-cart--v1.png"></a></li>
+                <li><a href="profile.html"><img width="24" height="24" src="https://img.icons8.com/ios-filled/50/user-male-circle.png"></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="purchased-items-container">
+        <div class="white-box">
+            <h2>Purchased Items</h2>
+            <div id="purchased-items-list">
+                <!-- Purchased items will be dynamically added here -->
+            </div>
+            <button id="clear-purchase-btn" class="btn">Clear Purchase</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footers">
+            <p>Download our app:</p>
+            <div class="app-icons">
+                <a href="https://play.google.com/store/apps/details?id=your_app_id_here" target="_blank" rel="noopener noreferrer">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/256px-Google_Play_Store_badge_EN.svg.png" alt="Google Play Store">
+                </a>
+                <a href="https://apps.apple.com/app/your_app_name_here/idyour_app_id_here" target="_blank" rel="noopener noreferrer">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/1200px-Download_on_the_App_Store_Badge.svg.png" alt="Apple App Store">
+                </a>
+            </div>
+        </div>
+
+        <div class="footercontent">
+            <p>This website is for educational purposes only and no copyright infringement is intended.</p>
+            <p>Copyright &copy;2024; All images used in this website are from.</p>
+            <p>Designed by Paupuff Boys.</p>
+        </div>
+    </footer>
+
+    <script src="purchase.js"></script>
+</body>
+</html>
